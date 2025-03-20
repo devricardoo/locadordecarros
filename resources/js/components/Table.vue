@@ -94,13 +94,6 @@ export default {
         },
     },
     computed: {
-        /*dadosFiltrados() {
-            return (obj) => {
-                return Object.entries(obj).filter(([chave]) =>
-                    this.titulos.includes(chave)
-                );
-            };
-        },*/
         dadosFiltrados() {
             console.log(this.dados);
             let campos = Object.keys(this.titulos);
